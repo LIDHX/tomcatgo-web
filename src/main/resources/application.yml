@@ -1,0 +1,18 @@
+spring:
+  thymeleaf:
+
+    #设置静态资源路径
+    prefix: classpath:/templates/
+    suffix: .html
+    #开发过程中展示禁用 模板缓存
+    cache: false
+
+
+
+server:
+  port: 6001
+
+
+
+
+
